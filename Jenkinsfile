@@ -1,4 +1,4 @@
-!/usr/bin/env groovy
+#!/usr/bin/env groovy
  try {
      currentBuild.result = 'SUCCESS'
      node ('ecs-java') {
